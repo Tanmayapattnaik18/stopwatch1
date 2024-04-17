@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50%;
+
+    border:none ;
+    border-radius: 20px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.stopwatch-display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.control-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.stop-button {
+    background-color: dodgerblue ;
+    color: white;
+    border: none;
+    margin-bottom: 10%;
+}
+#resetButton{
+    color:  dodgerblue;
+    background-color: white;
+    margin-bottom: 10%;
+    border: none;
+}
